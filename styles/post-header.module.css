@@ -1,8 +1,8 @@
-.stuck {
+.stack {
   padding: var(--space-sm) 0;
 }
 
-.stuck > * + * {
+.stack > * + * {
   margin-top: var(--stack-space, 1em);
 }
 
