@@ -5,7 +5,7 @@ import Layout from "components/layout";
 import Script from "next/script";
 import * as gtag from "lib/gtag";
 
-// Font Awesomeの設定
+// FontAwesomeの設定
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
