@@ -17,6 +17,7 @@ export default function Home({ posts }) {
       <Hero title="CUBE" subtitle="Casual blogging site" imageOn />
 
       <Posts posts={posts} />
+
       <Pagenation nextUrl="/blog" nextText="More Posts" />
     </Container>
   );

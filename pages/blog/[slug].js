@@ -64,10 +64,12 @@ export default function Post({
               <ConvertBody contentHTML={content} />
             </PostBody>
           </TwoColumnMain>
+
           <TwoColumnSidebar>
             <PostCategories categories={categories} />
           </TwoColumnSidebar>
         </TwoColumn>
+
         <Pagenation
           prevText={prevPost.title}
           prevUrl={`/blog/${prevPost.slug}`}

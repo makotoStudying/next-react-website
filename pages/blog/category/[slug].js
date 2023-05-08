@@ -20,6 +20,7 @@ export default function Category({ name, posts }) {
 
 export async function getStaticPaths() {
   const allCats = await getAllCategories();
+
   return {
     paths: allCats.map(({ slug }) => `/blog/category/${slug}`),
     fallback: false,
@@ -41,6 +42,7 @@ export async function getStaticProps(context) {
     const { base64 } = await getPlaiceholder(post.eyecatch.url);
     post.eyecatch.blurDataURL = base64;
   }
+
   return {
     props: {
       name: cat.name,

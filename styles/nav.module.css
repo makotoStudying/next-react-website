@@ -69,6 +69,7 @@
   .open .btn .bar {
     transform: scale(0);
   }
+
   /* メニュー（オーバーレイ） */
   .list {
     position: fixed;

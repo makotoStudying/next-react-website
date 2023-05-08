@@ -8,8 +8,10 @@ export default function PostCategories({ categories }) {
     <div className={styles.flexContainer}>
       <h3 className={styles.heading}>
         <FontAwesomeIcon icon={faFolderOpen} />
+
         <span className="sr-only">categories</span>
       </h3>
+
       <ul className={styles.list}>
         {categories.map(({ name, slug }) => (
           <li key={slug}>
