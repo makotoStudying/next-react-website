@@ -1,6 +1,6 @@
 import styles from "styles/hero.module.css";
 import Image from "next/legacy/image";
-import cube from "images/cube.jpg";
+import cat from "images/cat.png";
 
 export default function Hero({ title, subtitle, imageOn = false }) {
   return (
@@ -13,7 +13,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
       {imageOn && (
         <figure className={styles.image}>
           <Image
-            src={cube}
+            src={cat}
             alt=""
             layput="responsive"
             sizes="(min-width: 1152px) 576px, (min-width:768) 50vw, 100vw"

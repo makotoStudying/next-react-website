@@ -8,7 +8,7 @@ export default function Contact() {
 
       <Social iconSize="30px" />
 
-      <address>cube@web.mail.address</address>
+      <address>makotoforblog@gmail.com</address>
     </div>
   );
 }

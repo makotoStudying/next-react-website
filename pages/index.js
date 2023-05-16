@@ -14,7 +14,7 @@ export default function Home({ posts }) {
     <Container>
       <Meta />
 
-      <Hero title="CUBE" subtitle="Casual blogging site" imageOn />
+      <Hero title="Mako's blog" subtitle="Casual blogging site" imageOn />
 
       <Posts posts={posts} />
 
