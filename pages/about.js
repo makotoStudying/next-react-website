@@ -22,7 +22,7 @@ export default function about() {
         pageImgH={eyecatch.height}
       />
 
-      <Hero title="About" subtitle="About development activities" />
+      <Hero title="About" subtitle="About this site and me" />
 
       <figure>
         <Image
@@ -39,14 +39,13 @@ export default function about() {
         <TwoColumnMain>
           <PostBody>
             <p>
-              Reactを触ってみたくて作ったサイトです。適度に更新していけたらなと思っています。
-              勉強は好きなので読んだ本のことをメインで書くつもりです。
+              Reactを触ってみたくて作ったサイトです。適度に更新していこうと思います。
             </p>
-
+            <p>読んだ本の感想を書いていきたいです。</p>
             <h2>自己紹介</h2>
-
+            <p>派遣のSEをしています。大学では化学を専攻してました。</p>
             <p>
-              派遣のSEをしています。大学では化学を専攻してました。プログラマとしてスキルアップすれば正社員への道が拓けないかな、、、など思いながら勉強しています。
+              プログラマとしてスキルアップすれば正社員への道が拓けないかな、、、など思いながら勉強しています。
             </p>
           </PostBody>
         </TwoColumnMain>
