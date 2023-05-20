@@ -8,38 +8,19 @@ import {
   TwoColumnMain,
   TwoColumnSidebar,
 } from "components/two-column";
-import Image from "next/legacy/image";
-import eyecatch from "images/about.jpg";
 
 export default function about() {
   return (
     <Container>
-      <Meta
-        pageTitle="アバウト"
-        pageDesc="About"
-        pageImg={eyecatch.src}
-        pageImgW={eyecatch.width}
-        pageImgH={eyecatch.height}
-      />
+      <Meta pageTitle="アバウト" pageDesc="About" />
 
       <Hero title="About" subtitle="About this site and me" />
-
-      <figure>
-        <Image
-          src={eyecatch}
-          alt=""
-          layout="responsive"
-          sizes="(min-width:1152px)1152px,100vw"
-          placeholder="blur"
-          priority
-        />
-      </figure>
 
       <TwoColumn>
         <TwoColumnMain>
           <PostBody>
             <p>
-              Reactを触ってみたくて作ったサイトです。適度に更新していこうと思います。
+              Next.jsを触ってみたくて作ったサイトです。適度に更新していこうと思います。
             </p>
             <p>読んだ本の感想を書いていきたいです。</p>
             <h2>自己紹介</h2>

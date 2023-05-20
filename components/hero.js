@@ -1,6 +1,6 @@
 import styles from "styles/hero.module.css";
 import Image from "next/legacy/image";
-import cat from "images/cat.png";
+import cutepenguin from "images/cutepenguin.jpg";
 
 export default function Hero({ title, subtitle, imageOn = false }) {
   return (
@@ -13,10 +13,10 @@ export default function Hero({ title, subtitle, imageOn = false }) {
       {imageOn && (
         <figure className={styles.image}>
           <Image
-            src={cat}
+            src={cutepenguin}
             alt=""
-            layput="responsive"
-            sizes="(min-width: 1152px) 576px, (min-width:768) 50vw, 100vw"
+            layout="responsive"
+            sizes="(min-width: 1152px) 1152px, (min-width:768) 100vw, 100vw"
             priority
             placeholder="blur"
           />
