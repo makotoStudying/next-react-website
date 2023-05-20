@@ -16,7 +16,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
             src={cutepenguin}
             alt=""
             layout="responsive"
-            sizes="(min-width: 1152px) 1152px, (min-width:768) 100vw, 100vw"
+            sizes="(min-width: 1152px) 1152px, 100vw"
             priority
             placeholder="blur"
           />

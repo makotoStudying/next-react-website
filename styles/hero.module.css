@@ -22,7 +22,7 @@
   width: 40%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .image {
     display: none;
   }
