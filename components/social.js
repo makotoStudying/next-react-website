@@ -7,7 +7,7 @@ export default function Social({ iconSize = "initial" }) {
   return (
     <ul className={styles.list} style={{ "--icon-size": iconSize }}>
       <li>
-        <a href="https://twitter.com/" target="_blank">
+        <a href="https://twitter.com/wm928" target="_blank">
           <FontAwesomeIcon icon={faTwitter} />
           <span className="sr-only">twitter</span>
         </a>
