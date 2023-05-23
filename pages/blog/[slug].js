@@ -16,6 +16,7 @@ import PostCategories from "components/post-categories";
 import Pagenation from "components/pagenation";
 import Image from "next/legacy/image";
 import { getPlaiceholder } from "plaiceholder";
+import "highlight.js/styles/github-dark.css";
 
 //ローカルの代替アイキャッチ画像
 import { eyecatchLocal } from "lib/constants";
