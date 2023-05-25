@@ -54,6 +54,10 @@ export default function Meta({
       <meta property="og:image:width" content={imgW} />
       <meta property="og:image;height" content={imgH} />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="google-site-verification"
+        content="CHPNZ-dlb728v3ndd6SGVr9g5UAQq7CeEiXHY_5avJU"
+      />
     </Head>
   );
 }
