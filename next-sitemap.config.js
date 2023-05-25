@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: "https://next-react-website-makos-clone.vercel.app/",
+  siteUrl: "https://www.makoto-no-blog.net",
 };
 
 module.exports = config;
