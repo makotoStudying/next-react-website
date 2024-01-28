@@ -48,6 +48,11 @@ export default function Nav() {
             Blog
           </Link>
         </li>
+        <li>
+          <Link href="https://form-app-hazel.vercel.app/" onClick={closeNav}>
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );
